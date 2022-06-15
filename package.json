@@ -1,11 +1,11 @@
 {
-  "name": "george-barbu-cv",
+  "name": "gatsby-starter-resume-cms",
   "private": true,
-  "description": "George Barbu CV",
+  "description": "Gatsby starter for resume",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/barbugeorgedev/cv"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
   "bugs": {
     "url": "https://github.com/barbugeorgedev/cv/issues"
