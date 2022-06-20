@@ -21,7 +21,7 @@ export default function Home() {
     const downloadPDF = () => {
         var element = document.createElement('a'); 
         element.setAttribute('href', process.env.GATSBY_PDF_EXPORT_PATH);
-        element.setAttribute('download', 'george-barbu.pdf');
+        element.setAttribute('download', 'gatsby-starter-resume.pdf');
     
         element.style.display = 'none';
         document.body.appendChild(element);

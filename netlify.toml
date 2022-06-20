@@ -1,0 +1,3 @@
+[build]
+  command = "gatsby build && npm run generate"
+  publish = "public/"
